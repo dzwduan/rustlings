@@ -4,7 +4,8 @@
 // I AM NOT DONE
 
 fn main() {
-    call_me();
+    let arg:u32 = 3;
+    call_me(arg);
 }
 
 fn call_me(num: u32) {
